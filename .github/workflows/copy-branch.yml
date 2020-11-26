@@ -24,7 +24,7 @@ jobs:
         fetch-depth: 0
         ref: master
         
-    - run: gradle dependencies
+    - run: gradle build
     
     - name: Download Scantist-Bom-Detect
       run: curl -s https://scripts.scantist.com/staging/scantist-bom-detect.jar --output scantist-bom-detect.jar
