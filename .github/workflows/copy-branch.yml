@@ -1,6 +1,6 @@
 # Duplicates default main branch to the old master branch
 
-name: Duplicates main to old master branch
+name: Duplicates main to old master branch 
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the main branch
